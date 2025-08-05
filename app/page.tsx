@@ -617,7 +617,8 @@ Terima kasih!
                             </h1>
                             <p className="text-lg text-gray-600 mb-6">{t.hero.description}</p>
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Button size="lg" className="bg-blue-700 hover:bg-blue-800">
+                                <Button   onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                                          size="lg" className="bg-blue-700 hover:bg-blue-800">
                                     {t.hero.getStarted} <ArrowRight className="ml-2 h-4 w-4"/>
                                 </Button>
                             </div>
