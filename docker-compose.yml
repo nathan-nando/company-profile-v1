@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  nextjs:
+    image: ghcr.io/andreejait/company-profile:development
+    container_name: company-profile-app
+    env_file:
+      - .env
+    restart: unless-stopped
