@@ -23,7 +23,6 @@ html {
   --font-mono: ${GeistMono.variable};
 }
         `}</style>
-            <title>Amanel Tech</title>
 
         </head>
         <body>{children}
