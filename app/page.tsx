@@ -200,11 +200,11 @@ const content = {
                 {
                     title: "Solusi Hemat Biaya",
                     description:
-                        "Kualitas profesional dengan harga ramah startup, hingga 60% lebih murah dari agensi tradisional",
+                        "Kualitas profesional dengan harga ramah startup, hingga 20-40% lebih murah dari agensi tradisional",
                 },
                 {
                     title: "Produksi Cepat",
-                    description: "Penerbitan cepat tanpa mengorbankan kualitas, sebagian besar proyek selesai dalam 2-4 minggu",
+                    description: "Penerbitan cepat tanpa mengorbankan kualitas, sebagian besar proyek skala menengah selesai dalam 2-4 minggu",
                 },
                 {
                     title: "Penanganan End-to-End",
@@ -245,7 +245,7 @@ const content = {
                     {
                         question: "Berapa lama timeline proyek biasanya?",
                         answer:
-                            "Sebagian besar proyek selesai dalam 2-4 minggu, tergantung kompleksitas. Profil perusahaan dapat diselesaikan dalam 24-48 jam.",
+                            "Sebagian besar proyek skala menengah selesai dalam 2-4 minggu, tergantung kompleksitas. Profil perusahaan dapat diselesaikan dalam 24-48 jam.",
                     },
                     {
                         question: "Apakah Anda menyediakan dukungan berkelanjutan?",
@@ -255,7 +255,7 @@ const content = {
                     {
                         question: "Bisakah Anda bekerja dengan klien internasional?",
                         answer:
-                            "Meskipun kami mengkhususkan diri di pasar Indonesia, kami bekerja dengan klien internasional dan mengikuti standar pengembangan global.",
+                            "Meskipun kami mengkhususkan diri di pasar Indonesia, kami terbuka bekerja dengan klien internasional dan mengikuti standar pengembangan global.",
                     },
                 ],
             },
@@ -440,11 +440,11 @@ const content = {
             items: [
                 {
                     title: "Cost-Effective Solutions",
-                    description: "Professional quality at startup-friendly prices, up to 60% less than traditional agencies",
+                    description: "Professional quality at startup-friendly prices, up to 20 - 40% less than traditional agencies",
                 },
                 {
                     title: "Quick Production",
-                    description: "Fast delivery without compromising quality, most projects completed in 2-4 weeks",
+                    description: "Fast delivery without compromising quality, most medium scale projects completed in 2-4 weeks",
                 },
                 {
                     title: "End-to-End Handling",
@@ -485,7 +485,7 @@ const content = {
                     {
                         question: "What's your typical project timeline?",
                         answer:
-                            "Most projects are completed within 2-4 weeks, depending on complexity. Company profiles can be delivered in 24-48 hours.",
+                            "Most medium scale projects are completed within 2-4 weeks, depending on complexity. Company profiles can be delivered in 24-48 hours.",
                     },
                     {
                         question: "Do you provide ongoing support?",
@@ -495,7 +495,7 @@ const content = {
                     {
                         question: "Can you work with international clients?",
                         answer:
-                            "While we specialize in the Indonesian market, we work with international clients and follow global development standards.",
+                            "While we specialize in the Indonesian market, we thrilled to work with international clients and follow global development standards.",
                     },
                 ],
             },
@@ -873,6 +873,16 @@ Terima kasih!
                                         ))}
                                     </div>
                                 </div>
+                                <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg border-white/30 border">
+                                    <h4 className="font-semibold text-white mb-2">{t.trust.techStack.monitoring.title}</h4>
+                                    <div className="flex flex-wrap gap-2">
+                                        {t.trust.techStack.monitoring.items.map((item, index) => (
+                                            <Badge key={index} variant="secondary">
+                                                {item}
+                                            </Badge>
+                                        ))}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -938,7 +948,7 @@ Terima kasih!
                                 </div>
                                 <div className="flex items-center">
                                     <Mail className="h-5 w-5 text-blue-700 mr-3"/>
-                                    <span className="text-sm">nathan.nandoo@gmail.com</span>
+                                    <span className="text-sm">nathanfltobing@gmail.com</span>
                                 </div>
                                 <div className="flex items-center">
                                     <Phone className="h-5 w-5 text-blue-700 mr-3"/>
